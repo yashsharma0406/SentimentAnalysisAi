@@ -2819,4 +2819,4 @@ elif st.session_state.page in ["Model Trust", "Trust & Reliability"]:
 
     with st.expander("Technical details (optional)"):
         if not df_compare.empty:
-            st.dataframe(df_compare.head(10), use_container_width=True)₹
+            st.dataframe(df_compare.head(10), use_container_width=True)
